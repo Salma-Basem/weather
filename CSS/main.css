@@ -1,0 +1,241 @@
+nav,section,input.bg-input{
+  background-color: #1E202B;
+}
+
+nav ul li a {
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+   line-height: 21px;
+   transition: color 5s ease, border 5s ease;
+}
+nav .logo{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+ line-height: normal;
+}
+nav .title{
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 300;
+  font-style: normal;
+ line-height: 15px;
+ color:rgb(191, 193, 200);
+}
+
+a:hover
+{
+  color:#4E9BD9 !important;
+  border: 2px solid  #4E9BD9;
+  border-radius: 18px;
+ 
+}
+
+section.weather {
+   background-image: url(../images/usa25_banner.jpg);
+   background-position: center center;
+   background-size: cover;
+   height: 40vh;
+   background-color: 1E202B;
+   
+}
+section.weather::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 20vh;
+  background-color: #1E202B;
+}
+.black-layer{
+  height: 60vh;
+}
+.find-pos
+{ background-color: #4E9BD9;
+  top:6px;
+  right:400px;
+}
+
+input.form-control:focus{
+  background-color:#1E202B;
+  box-shadow: none;
+  border-color: none;
+}
+
+.colored-placeholder::placeholder{
+  color: grey;
+}
+
+section.footer{
+  background-color: #262936ed;
+}
+.all:hover,.icon{
+  color: #4E9BD9;
+  
+}
+
+.icon:hover{
+  color: white;
+}
+.all{
+  transition: color 1s linear;
+}
+  
+.subscribe-pos
+{ background-color: #4E9BD9;
+  top:100px;
+  right:580px;
+}
+
+.day{
+  background-color: #2D303D;
+}
+
+.weather-day{
+  background-color: #323544;
+}
+.navbar-toggler-icon {
+  color: #ffffff; /* Set the background color to white */
+}
+
+@media (max-width:580px) 
+{
+  button.find-pos{
+    top:6px;
+    right:150px;
+  }
+
+  button.subscribe-pos
+  {
+    top: 55px;
+    right:5px;
+  }
+
+  div.media
+  {
+    width: 110% !important;
+  }
+  div.media input
+  {
+    width:100% !important
+  }
+}
+  @media (max-width:590px) 
+  {
+    button.find-pos{
+      top:6px;
+      right:200px;
+    }
+
+    button.subscribe-pos
+    {
+      top: 55px;
+      right:5px;
+    }
+
+    div.media
+    {
+      width: 110% !important;
+    }
+    div.media input
+    {
+      width:100% !important
+    }
+  }
+
+  @media (max-width:690px) 
+  {
+    button.find-pos{
+      top:6px;
+      right:200px;
+    }
+
+    button.subscribe-pos
+    {
+      top: 55px;
+      right:5px;
+    }
+
+    div.media
+    {
+      width: 110% !important;
+    }
+    div.media input
+    {
+      width:100% !important
+    }
+  }
+@media (max-width:790px) 
+  {
+    button.find-pos{
+      top:6px;
+      right:200px;
+    }
+
+    button.subscribe-pos
+    {
+      top: 105px;
+      right:170px;
+    }
+
+    div.media
+    {
+      width: 110% !important;
+    }
+    div.media input
+    {
+      width:100% !important
+    }
+  }
+
+
+  @media (max-width:860px) 
+  {
+    button.find-pos{
+      top:6px;
+      right:220px;
+    }
+
+    button.subscribe-pos
+    {
+      top:105px;
+      right:180px;
+    }
+
+    div.media
+    {
+      width: 110% !important;
+    }
+    div.media input
+    {
+      width:100% !important
+    }
+  }
+
+  @media (manx-width:950px) 
+  {
+    button.find-pos{
+      top:6px;
+      right:290px;
+    }
+
+    button.subscribe-pos
+    {
+      top:105px;
+      right:150px;
+    }
+
+    div.media
+    {
+      width: 110% !important;
+    }
+    div.media input
+    {
+      width:100% !important
+    }
+  }
